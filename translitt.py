@@ -2,7 +2,7 @@
 import re
 
 """Définition du dictionnaire de translittération
-Il est important de définir les caractères diacrités avant les simples
+Il est important de définir les caractères (géorgiens) diacrités avant les simples
 Puisqu'il n'y a pas de caractères précomposés pour les diacritiques du svane"""
 Geor2Latn = {
 "ა̄̈": "ǟ",
@@ -20,7 +20,7 @@ Geor2Latn = {
  "თ": "t",
  "ი̄": "ī",
  "ი": "i",
- "კ": "k’",
+ "კ": "ḳ",
  "ლ": "l",
  "მ": "m",
  "ნ": "n",
@@ -28,11 +28,11 @@ Geor2Latn = {
  "ო̈": "ö",
  "ო̄": "ō",
  "ო": "o",
- "პ": "p’",
+ "პ": "ṗ",
  "ჟ": "ž",
  "რ": "r",
  "ს": "s",
- "ტ": "t’",
+ "ტ": "ṭ",
  "უ̄̈": "ǖ",
  "უ̄": "ū",
  "უ̈": "ü",
@@ -41,21 +41,21 @@ Geor2Latn = {
  "ფ": "p",
  "ქ": "k",
  "ღ": "ɣ",
- "ყ": "q’",
+ "ყ": "q̇",
  "შ": "š",
  "ჩ": "č",
  "ც": "c",
  "ძ": "ʒ",
- "წ": "c’",
- "ჭ": "č’",
+ "წ": "c̣",
+ "ჭ": "č̣",
  "ხ": "x",
  "ჯ": "ǯ",
  "ჰ": "h",
  "ჴ": "q",
- "ჸ": "ʔ",
+ "ჸ": "ʾ",
  "ჷ̄": "ə̄",
  "ჷ": "ə",
- "ჲ": "j",
+ "ჲ": "y",
  "ჶ": "f",
 }
 #définition du dictionnaire inverse de translittération
