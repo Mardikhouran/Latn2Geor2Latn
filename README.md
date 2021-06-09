@@ -1,7 +1,7 @@
 # Latn2Geor2Latn
 Translittération des caractères de l'alphabet géorgien (მხედრული -- mxedruli)
 
-### Utilisation
+## Utilisation
 Rendez vous dans le répertoire où se trouve un fichier de texte brut (.txt, .md, etc.) contenant un texte écrit en mxedruli, lancez le programme puis indiquez le nom du fichier à convertir et le nom du fichier d'arrivée (cela peut-être le même). Le résultat est un texte en translittération latine selon la norme IKE (https://en.wiktionary.org/wiki/Wiktionary:Georgian_transliteration).
 
 ## Objectifs
